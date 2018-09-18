@@ -1,11 +1,11 @@
 class Person
-  def initalize(name)
+  def initialize(name)
     @name = name
   end
 end
 
 class Dog
-  def initalize(name, breed)
+  def initialize(name, breed)
     @name = name
     @breed = breed ||= "Mutt"
   end
